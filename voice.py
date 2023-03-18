@@ -1,5 +1,5 @@
 import openai
-from dotenv import OPENAI_API_KEY
+from dotenv import load_dotenv
 import speech_recognition as sr
 import pyttsx3
 import time
