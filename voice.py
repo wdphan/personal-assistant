@@ -100,6 +100,7 @@ def main():
             except Exception as e:
                 print("An error ocurred : {}".format(e))
 
+            # code that runs the main func
             if __name__=="__main__":
                 main()
 
