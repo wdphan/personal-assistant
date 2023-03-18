@@ -1,12 +1,12 @@
 import openai
-
+from dotenv import OPENAI_API_KEY
 import speech_recognition as sr
 import pyttsx3
-import time 
-
+import time
+import os
 
 # Initialize OpenAI API
-openai.api_key = "OPENAI_API_KEY"
+openai.api_key = os.getenv("OPENAI_API_KEY")
 # Initialize the text to speech engine stored in engine var
 engine = pyttsx3.init()
 
