@@ -1,23 +1,22 @@
 # AI Personal Assistant
 
-This repository uses `PyAudio`, `langdetect`, and `googletrans` to generate translated audio.
+This repository uses `pyttsx3`, `SpeechRecognition` and `OpenAI`'s api to generate audio responses.
 
 ## Installation
 
-To get started, you'll need Python 3.7 or newer. To install pyaudio, use the commands below.
+To install `pyttsx3` and `OpenAI`, use the commands below.
 
-## on MacOS using [Homebrew](https://brew.sh/)
-
-    brew install portaudio
-    pip install pyaudio
+    pip3 install pyttsx3
+    pip3 install openai
+    pip3 install SpeechRecognition
 
 ## Usage
 
-The following command will prompt the text "Speak something...", in which you can speak into the mic.
+The following command will prompt the text "Say 'Genius' to start recording your question", in which you can speak into the mic to ask for a response.
 
-    python3 translate.py
+    python3 genius.py
 
-It will recognize the voice, and interpret what was received in terminal. Thehn, it produces an outputed translated in spanish or english (depending on which language was spoken).
+It will recognize the voice, recognize the audio as input and transcribes it to text, then provides a response from the chatgpt3 api.
 
 ## License
 
