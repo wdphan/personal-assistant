@@ -1,6 +1,6 @@
 # AI Personal Assistant
 
-This repository uses `pyttsx3`, `SpeechRecognition` and `OpenAI`'s api to generate audio responses from a personal assistant named Genie.
+This repository uses `pyttsx3`, `SpeechRecognition`, and `OpenAI`'s api to generate audio responses from a personal assistant named Genie.
 
 ## Installation
 
